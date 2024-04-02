@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q7</title>
+</head>
+<body>
+    <script>
+        let d1=parseInt(prompt("Enter day  of first date in the format dd"));
+        let m1=parseInt(prompt("Enter month of first date in the format mm"));
+        let y1=parseInt(prompt("Enter year of first date in the format yyyy"));
+        let d2=parseInt(prompt("Enter day  of second date in the format dd"));
+        let m2=parseInt(prompt("Enter month of second date in the format mm"));
+        let y2=parseInt(prompt("Enter year of second date in the format yyyy"));
+        let no_of_days1=d1+(m1-1)*30+y1*365;
+        let no_of_days2=d2+(m2-1)*30+y2*365;
+        let diff=no_of_days2-no_of_days1;
+        console.log("Difference in no. of days in 2 dates:",diff);
+    </script>
+</body>
+</html>
